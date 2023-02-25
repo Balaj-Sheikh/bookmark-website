@@ -1,0 +1,269 @@
+* {
+    font-family: Rubik, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+
+/*                                                Nav Bar                                                */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+
+}
+
+.bookmark {
+    margin-left: 5em;
+}
+
+ul {
+    margin-left: 25em;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    /*justify-content: space-between;*/
+    align-items: center;
+    height: 100%;
+}
+
+li {
+    margin: 0 20px;
+    margin-right: 2em;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+a:hover {
+    color: hsl(231, 69%, 60%);
+}
+
+.login {
+    margin-right: 8em;
+    padding: 10px 30px 10px 30px;
+    color: hsl(231, 69%, 60%);
+    border-radius: 4px;
+    background-color: white;
+    border: 3px solid;
+    border-color: hsl(231, 69%, 60%)
+}
+
+/*                 First Container                            */
+
+container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    flex-direction: column;
+    margin-left: 5em;
+    margin-top: 6em;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.cp {
+    font-size: 16px;
+    color: gray;
+    margin-top: 1em;
+}
+
+.cimg {
+    margin-top: 3em;
+    margin-right: 4em;
+}
+
+.cbtn1 {
+    margin-top: 1em;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    border-radius: 4px;
+    border: 3px solid;
+}
+
+.cbtn1:hover {
+    color: hsl(231, 69%, 60%)
+}
+
+.cbtn2 {
+    margin-top: 1em;
+    padding: 10px 30px 10px 30px;
+    background-color: white;
+    margin-left: 1em;
+    border-radius: 4px;
+    border: 3px solid;
+}
+
+.cbtn2:hover {
+    color: hsl(231, 69%, 60%)
+}
+
+/*                Features                            */
+.features {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.fp {
+    color: gray;
+    margin-top: 1em;
+    text-align: center;
+}
+
+.fimg {
+    margin-left: 6em;
+    margin-top: 6em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+seccontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+bookmark {
+    margin-top: 6em;
+    margin-right: 7em;
+}
+
+.bp {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    color: gray;
+}
+
+.bb {
+    padding: 10px 30px 10px 30px;
+    background-color: hsl(231, 69%, 60%);
+    color: white;
+    border-color: hsl(231, 69%, 60%);
+    border-radius: 4px;
+}
+
+.bb:hover {
+    color: hsl(231, 69%, 60%);
+    background-color: white;
+    cursor: pointer;
+}
+
+/*                  extensions                     */
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7em;
+}
+
+.dp {
+    margin-top: 1em;
+    text-align: center;
+    color: gray;
+}
+
+.extension {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2em;
+}
+
+extension1 {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 13em;
+    margin-top: 2em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+extension1 div {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.e1p {
+    color: gray;
+    font-size: 18px;
+}
+
+.e1b {
+    margin-top: 3em;
+}
+.ebtn {background-color: white;
+    padding-left: 1.5em;
+    padding-top: 0.5em;
+    padding-right: 1.5em;
+    padding-bottom: 0.5em;
+    border-radius: 5px;
+    color: white ;
+    border-color: hsl(231, 69%, 60%);
+    border-width: 3px;
+    background-color: hsl(231, 69%, 60%);
+}
+.ebtn:hover {background-color: white;
+color: hsl(231, 69%, 60%);
+cursor: pointer;
+}
+
+
+
+extension2 {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 3em;
+    margin-top: 4em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+extension2 div {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.e2p {
+    color: gray;
+    font-size: 18px;
+}
+
+.e2b {
+    margin-top: 3em;
+}
+
+extension3 {
+    width: 300px;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    margin-right: em;
+    margin-left: 3em;
+    margin-top: 6em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.027);
+}
+
+extension3 div {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.e3p {
+    color: gray;
+    font-size: 18px;
+}
+
+.e3b {
+    margin-top: 3.4em;
+
+}
