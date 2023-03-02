@@ -267,3 +267,21 @@ extension3 div {
     margin-top: 3.4em;
 
 }
+/* Styles for larger screens go here */
+
+@media only screen and (max-width: 767px) {
+    /* CSS styles for mobile devices go here */
+  
+    /* Set font size for smaller screens */
+    body {
+      font-size: medium;
+    }
+  
+    /* Center the content within the viewport */
+    .container {
+      max-width: 100%;
+      margin: 0 auto;
+      padding: 0 15px;
+    }
+
+  
